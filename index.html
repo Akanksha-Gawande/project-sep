@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cryptocurrency Table</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <input type="text" id="search" placeholder="Search by name or symbol">
+    <button id="sort-market-cap">Sort by Mkt Cap</button>
+    <button id="sort-percentage-change">Sort by Percentage Change</button>
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>ID</th>
+                <th>Image</th>
+                <th>Symbol</th>
+                <th>Current Price</th>
+                <th>Mkt cap</th>
+                <th>Percentage Change </th> 
+            </tr>
+        </thead>
+        <tbody id="crypto-table-body">
+            <!-- Data will be populated here -->
+        </tbody>
+    </table>
+    <script src="script.js"></script>
+</body>
+</html>
